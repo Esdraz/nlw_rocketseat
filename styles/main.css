@@ -32,12 +32,19 @@ body {
   height: 100vh;
 }
 
+body {
+  background: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body,
 input,
 button,
 textarea {
   font-weight: 500;
-  font-family: Podding;
+  font-family: Poppins;
   font-size: 1.6rem;
   color: var(--color-text-base);
 }
